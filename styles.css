@@ -1,0 +1,75 @@
+.title{
+    display:flex;
+    justify-content: center;
+}
+
+.stats{
+    display:flex;
+    justify-content:space-around;
+    width:100%;
+    margin:4%;
+}
+
+#hunger{
+    color:red;
+    padding: 2px;
+    border: 2px solid red;
+}
+
+#happiness{
+    color:blue;
+    padding: 2px;
+    border: 2px solid blue;
+}
+
+#energy{
+    color:green;
+    padding: 2px;
+    border: 2px solid green;
+}
+
+body{
+    display:flex;
+    flex-wrap:column;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+}
+
+.pet{
+    width:500px;
+    height:300px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-image:
+    linear-gradient(rgba(255,255,255, 0), rgba(255,255,255, 0)),
+    url(https://d3544la1u8djza.cloudfront.net/APHI/Blog/2021/07-06/small+white+fluffy+dog+smiling+at+the+camera+in+close-up-min.jpg);
+}
+
+.buttons{
+    display:inline-flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-around;
+    padding:5%;
+    width:60%;
+}
+
+#sleepButton{
+    width:40%;
+    padding:2%;
+    margin:2%;
+}
+
+#feedButton{
+    width:40%;
+    padding:2%;
+    margin:2%;
+}
+
+#playButton{
+    width:40%;
+    padding:2%;
+    margin:2%;
+}
+
